@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8" />
+        <title>Chrome Debug Tools</title>
+        <link rel="stylesheet" href="modules/uikit/css/uikit.almost-flat.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/scroll_bar.css" />
+        <script src="modules/jquery-1.9.1.js"></script>
+        <script src="modules/uikit/js/uikit.min.js"></script>
+        <script data-main="lib/init" src="modules/require.js"></script>
+        <script src="modules/ga.js"></script>
+    </head>
+    
+    <body>
+        <div class="uk-container container">
+
+            <div class="actions uk-button-group">
+                <button class="btn-info uk-button uk-button-primary">Info</button>
+                <button class="btn-more-urls uk-button">More Urls</button>
+            </div>
+
+            <dl class="uk-description-list uk-description-list-line">
+                <dt><i class="uk-icon-external-link"></i>chrome://blob-internals</dt>
+                <dd>Displays analytics about blobs (Binary large objects)</dd>
+
+                <dt><i class="uk-icon-external-link"></i>chrome://conflicts</dt>
+                <dd>A list of all modules loaded into the main process and modules registered to load at a later point</dd>
+
+                <dt><i class="uk-icon-external-link"></i>chrome://crash</dt>
+                <dd>Simulates a crash caused by the current tab</dd>
+
+                <dt><i class="uk-icon-external-link"></i>chrome://crashes</dt>
+                <dd>A list of all recent crashes. Only available if you enable crash reporting first</dd>
+
+                <dt><i class="uk-icon-external-link"></i>chrome://kill</dt>
+                <dd>Kills the current tab in the browser and displays a "killed" page instead</dd>
+
+                <dt><i class="uk-icon-external-link"></i>chrome://hang</dt>
+                <dd>Simulates a frozen browser</dd>
+
+                <dt><i class="uk-icon-external-link"></i>chrome://shorthang</dt>
+                <dd>Simulates a browser that hangs for a moment</dd>
+
+                <dt><i class="uk-icon-external-link"></i>chrome://gpuclean</dt>
+                <dd>Clean gpu memory</dd>
+
+                <dt><i class="uk-icon-external-link"></i>chrome://gpucrash</dt>
+                <dd>Simulates a crash of the gpu</dd>
+
+                <dt><i class="uk-icon-external-link"></i>chrome://gpuhang</dt>
+                <dd>Simulates a frozen gpu</dd>
+
+                <dt><i class="uk-icon-external-link"></i>chrome://ppapiflashcrash</dt>
+                <dd>Simulates a crash caused by PPAPI Flash</dd>
+
+                <dt><i class="uk-icon-external-link"></i>chrome://ppapiflashhang</dt>
+                <dd>Simulates a frozen state caused by PPAPI Flash</dd>
+                
+                <dt><i class="uk-icon-external-link"></i>chrome://histograms</dt>
+                <dd>Histogram related information</dd>
+            </dl>       
+
+        </div>
+    </body>
+
+</html>
