@@ -7,9 +7,11 @@ define ['R'] , (R) ->
 
 		$(document).ready -> # after DOM init
 
+			# init
 			$('dd').css('display', 'none')
 			descriptionEnabled = false
 
+			# info
 			$(".btn-info").click ->
 				if descriptionEnabled
 					$('dd').css('display', 'none')
@@ -19,6 +21,13 @@ define ['R'] , (R) ->
 					$('dd').css('display', 'inline')
 					$('.container').css('width', '700px')
 					descriptionEnabled = true
+
+			# redirect to about
+			$(".btn-more-urls").click ->
+				chrome.tabs.getSelected null, (tab) ->
+					chrome.tabs.update tab.id, { url: "chrome://about/" }
+
+
 
 
 
