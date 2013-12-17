@@ -1,7 +1,7 @@
 
 # MAIN SCRIPT
 
-define ['R'] , (R) ->
+define ['R', '_'] , (R, _) ->
 
 	init : ->
 
@@ -23,9 +23,10 @@ define ['R'] , (R) ->
 					descriptionEnabled = true
 
 			# redirect to about
-			$(".btn-more-urls").click ->
-				chrome.tabs.getSelected null, (tab) ->
-					chrome.tabs.update tab.id, { url: "chrome://about/" }
+			$('.btn-more-urls').click -> chrome.tabs.create {'url': "chrome://about/"}
+
+			# dt links
+			$('dt').click -> _.redirectTo $(@).text()
 
 
 

@@ -6,6 +6,20 @@
 	width: 250px;
 }
 
+dt {
+	cursor: pointer;
+}
+
+dt i {
+	color: #d34836;
+}
+
+dt:hover {
+	color: #d34836;
+	-webkit-box-shadow: 0 0 5px 5px#888;
+	border-radius: 10px;
+}
+
 dd {
 	display: none;
 }

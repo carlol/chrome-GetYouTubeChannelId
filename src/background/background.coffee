@@ -1,5 +1,5 @@
 
-# MAIN SCRIPT
+# MAIN BACKGROUND SCRIPT
 
 define ['R'] , (R) ->
 
