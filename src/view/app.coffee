@@ -28,6 +28,10 @@ define ['R', '_'] , (R, _) ->
 			# dt links
 			$('dt').click -> _.redirectTo $(@).text()
 
+			# warning tooltip
+			$('.badge-warn').attr('data-uk-tooltip', '')
+								  .attr('title', 'it crashes or hangs the renderer')
+
 
 
 

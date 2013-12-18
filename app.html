@@ -16,9 +16,11 @@
     <body>
         <div class="uk-container container">
 
-            <div class="actions uk-button-group">
-                <button class="btn-info uk-button uk-button-primary">Info</button>
-                <button class="btn-more-urls uk-button">More Urls</button>
+            <div class="uk-clearfix">
+                <div class="actions uk-button-group uk-float-right">
+                    <button class="btn-more-urls uk-button">More Urls</button>
+                    <button class="btn-info uk-button uk-button-primary">Info</button>
+                </div>
             </div>
 
             <dl class="uk-description-list uk-description-list-line">
@@ -28,34 +30,84 @@
                 <dt><i class="uk-icon-external-link"></i>chrome://conflicts</dt>
                 <dd>A list of all modules loaded into the main process and modules registered to load at a later point</dd>
 
-                <dt><i class="uk-icon-external-link"></i>chrome://crash</dt>
+                <dt>
+                    <div class="uk-clearfix">
+                        <div class="uk-float-left"><i class="uk-icon-external-link"></i>chrome://crash</div>
+                        <div class="badge-warn uk-badge uk-badge-warning uk-float-right">warning</div>
+                    </div>
+                </dt>
                 <dd>Simulates a crash caused by the current tab</dd>
 
-                <dt><i class="uk-icon-external-link"></i>chrome://crashes</dt>
+                <dt>
+                    <div class="uk-clearfix">
+                        <div class="uk-float-left"><i class="uk-icon-external-link"></i>chrome://crashes</div>
+                        <div class="badge-warn uk-badge uk-badge-warning uk-float-right">warning</div>
+                    </div>
+                </dt>
                 <dd>A list of all recent crashes. Only available if you enable crash reporting first</dd>
 
-                <dt><i class="uk-icon-external-link"></i>chrome://kill</dt>
+                <dt>
+                    <div class="uk-clearfix">
+                        <div class="uk-float-left"><i class="uk-icon-external-link"></i>chrome://kill</div>
+                        <div class="badge-warn uk-badge uk-badge-warning uk-float-right">warning</div>
+                    </div>
+                </dt>
                 <dd>Kills the current tab in the browser and displays a "killed" page instead</dd>
 
-                <dt><i class="uk-icon-external-link"></i>chrome://hang</dt>
+                <dt>
+                    <div class="uk-clearfix">
+                        <div class="uk-float-left"><i class="uk-icon-external-link"></i>chrome://hang</div>
+                        <div class="badge-warn uk-badge uk-badge-warning uk-float-right">warning</div>
+                    </div>
+                </dt>
                 <dd>Simulates a frozen browser</dd>
 
-                <dt><i class="uk-icon-external-link"></i>chrome://shorthang</dt>
+                <dt>
+                    <div class="uk-clearfix">
+                        <div class="uk-float-left"><i class="uk-icon-external-link"></i>chrome://shorthang</div>
+                        <div class="badge-warn uk-badge uk-badge-warning uk-float-right">warning</div>
+                    </div>
+                </dt>
                 <dd>Simulates a browser that hangs for a moment</dd>
 
-                <dt><i class="uk-icon-external-link"></i>chrome://gpuclean</dt>
+                <dt>
+                    <div class="uk-clearfix">
+                        <div class="uk-float-left"><i class="uk-icon-external-link"></i>chrome://gpuclean</div>
+                        <div class="badge-warn uk-badge uk-badge-warning uk-float-right">warning</div>
+                    </div>
+                </dt>
                 <dd>Clean gpu memory</dd>
 
-                <dt><i class="uk-icon-external-link"></i>chrome://gpucrash</dt>
+                <dt>
+                    <div class="uk-clearfix">
+                        <div class="uk-float-left"><i class="uk-icon-external-link"></i>chrome://gpucrash</div>
+                        <div class="badge-warn uk-badge uk-badge-warning uk-float-right">warning</div>
+                    </div>
+                </dt>
                 <dd>Simulates a crash of the gpu</dd>
 
-                <dt><i class="uk-icon-external-link"></i>chrome://gpuhang</dt>
+                <dt>
+                    <div class="uk-clearfix">
+                        <div class="uk-float-left"><i class="uk-icon-external-link"></i>chrome://gpuhang</div>
+                        <div class="badge-warn uk-badge uk-badge-warning uk-float-right">warning</div>
+                    </div>
+                </dt>
                 <dd>Simulates a frozen gpu</dd>
 
-                <dt><i class="uk-icon-external-link"></i>chrome://ppapiflashcrash</dt>
+                <dt>
+                    <div class="uk-clearfix">
+                        <div class="uk-float-left"><i class="uk-icon-external-link"></i>chrome://ppapiflashcrash</div>
+                        <div class="badge-warn uk-badge uk-badge-warning uk-float-right">warning</div>
+                    </div>
+                </dt>
                 <dd>Simulates a crash caused by PPAPI Flash</dd>
 
-                <dt><i class="uk-icon-external-link"></i>chrome://ppapiflashhang</dt>
+                <dt>
+                    <div class="uk-clearfix">
+                        <div class="uk-float-left"><i class="uk-icon-external-link"></i>chrome://ppapiflashhang</div>
+                        <div class="badge-warn uk-badge uk-badge-warning uk-float-right">warning</div>
+                    </div>
+                </dt>
                 <dd>Simulates a frozen state caused by PPAPI Flash</dd>
                 
                 <dt><i class="uk-icon-external-link"></i>chrome://histograms</dt>

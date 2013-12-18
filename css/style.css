@@ -3,7 +3,7 @@
 }
 
 .container {
-	width: 250px;
+	min-width: 310px;
 }
 
 dt {
@@ -15,9 +15,10 @@ dt i {
 }
 
 dt:hover {
-	color: #d34836;
+	/*color: #d34836;
 	-webkit-box-shadow: 0 0 5px 5px#888;
-	border-radius: 10px;
+	border-radius: 10px;*/
+	font-weight: bold;
 }
 
 dd {
@@ -26,4 +27,8 @@ dd {
 
 i {
 	margin: 5px;
+}
+
+.badge-warn {
+	margin-top: 2px;
 }
