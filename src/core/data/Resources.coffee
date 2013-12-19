@@ -2,7 +2,14 @@
 # COMMON CONSTANTS
 
 define
-	string : undefined
+
+	string :
+
+		externalLink : 'auto-execute'
+
+		copy2Clipboard : 'copy to clipboard (you must paste it in the addressbar)'
+
+		warning : 'it crashes or hangs the renderer'
 		
 
 	int : undefined

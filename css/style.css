@@ -10,8 +10,12 @@ dt {
 	cursor: pointer;
 }
 
-dt i {
-	color: #d34836;
+dt i.uk-icon-copy {
+	color: #00933B;	
+}
+
+dt i.uk-icon-external-link {
+	color: #d34836;	
 }
 
 dt:hover {
