@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 
-  "name": "Chrome Debug Tools",
+  "name": "Chrome Urls",
   "description": "Allow an easy access to all Chrome hidden debug features",
   "version": "1.0.0",
 
@@ -16,7 +16,7 @@
     	"19" : "images/logo19.png",
       "48" : "images/logo48.png"
     },
-    "default_title": "Chrome Debug Tools",
+    "default_title": "Chrome Urls",
     "default_popup": "app.html"
   },
 

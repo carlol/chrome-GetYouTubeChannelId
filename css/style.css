@@ -2,6 +2,10 @@
 	margin-top: 20px;
 }
 
+.uk-dropdown a {
+	text-align: center;
+}
+
 .container {
 	min-width: 310px;
 }
