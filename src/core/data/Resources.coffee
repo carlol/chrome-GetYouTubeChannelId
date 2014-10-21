@@ -3,14 +3,7 @@
 
 define
 
-	string :
-
-		externalLink : 'auto-execute'
-
-		copy2Clipboard : 'copy to clipboard (you must paste it in the addressbar)'
-
-		warning : 'it crashes or hangs the renderer'
-		
+	string : undefined		
 
 	int : undefined
 		

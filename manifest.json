@@ -1,27 +1,34 @@
 {
-  "manifest_version": 2,
+    "manifest_version": 2,
 
-  "name": "Chrome Urls",
-  "description": "Allow an easy access to all Chrome hidden debug features",
-  "version": "1.0.0",
+    "name": "AppName",
+    "description": "Description",
+    "version": "1.0.0",
 
-  "icons": {
-    "16": "images/logo16.png",
-    "48": "images/logo48.png",
-    "128": "images/logo128.png"
-  },
-
-  "browser_action": {
-    "default_icon": {
-    	"19" : "images/logo19.png",
-      "48" : "images/logo48.png"
+    "icons": {
+        "16": "images/logo16.png",
+        "48": "images/logo48.png",
+        "128": "images/logo128.png"
     },
-    "default_title": "Chrome Urls",
-    "default_popup": "app.html"
-  },
 
-  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
-  
-  "permissions": [ "storage", "tabs", "notifications" ]
-  
+    "browser_action": {
+        "default_icon": {
+            "19": "images/logo19.png",
+            "48": "images/logo48.png"
+        },
+        "default_title": "AppName",
+        "default_popup": "app.html"
+    },
+
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/*"],
+            "js": ["lib/jquery-1.11.1.min.js", "js/app.js"]
+    }
+  ],
+
+    "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+
+    "permissions": ["storage", "tabs", "notifications"]
+
 }
