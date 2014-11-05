@@ -1,42 +1,12 @@
-.actions {
-	margin-top: 20px;
+body {
+    padding: 20px;
+    width: 220px;
 }
 
-.uk-dropdown a {
-	text-align: center;
+.channelId {
+    font-size: 13px;
 }
 
-.container {
-	min-width: 310px;
-}
-
-dt {
-	cursor: pointer;
-}
-
-dt i.uk-icon-copy {
-	color: #00933B;	
-}
-
-dt i.uk-icon-external-link {
-	color: #d34836;	
-}
-
-dt:hover {
-	/*color: #d34836;
-	-webkit-box-shadow: 0 0 5px 5px#888;
-	border-radius: 10px;*/
-	font-weight: bold;
-}
-
-dd {
-	display: none;
-}
-
-i {
-	margin: 5px;
-}
-
-.badge-warn {
-	margin-top: 2px;
+.note, .warning {
+    margin-bottom: 0;   
 }

@@ -1,20 +1,37 @@
 <!doctype html>
 <html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Get YouTube ChannelId</title>
+    <link rel="stylesheet" href="modules/uikit/css/uikit.almost-flat.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/scroll_bar.css" />
+    <script src="modules/jquery-1.11.1.min.js"></script>
+    <script src="modules/uikit/js/uikit.min.js"></script>
+    <!--<script data-main="lib/init" src="modules/require.js"></script>-->
+    <script src="modules/ga.js"></script>
+    <script src="lib/popup.js"></script>
+</head>
+
+<body>
+
+    <p class="uk-h3">YouTube Channel Id</p>
+
+    <code class="channelId">No ChannelId retrieved</code>
+
+    <p class="warning"><span class="uk-badge uk-badge-warning">WARNING</span> You can extract channelId only from page with the follow path: <strong>https://www.youtube.com/watch*</strong></p>
     
-    <head>
-        <meta charset="utf-8" />
-        <title>Get YouTube ChannelId</title>
-        <link rel="stylesheet" href="modules/uikit/css/uikit.almost-flat.min.css" />
-        <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="css/scroll_bar.css" />
-        <script src="modules/jquery-1.9.1.js"></script>
-        <script src="modules/uikit/js/uikit.min.js"></script>
-        <script data-main="lib/init" src="modules/require.js"></script>
-        <script src="modules/ga.js"></script>
-    </head>
+    <p class="note">
+        <span class="uk-badge">NOTE</span> 
+        You can also find the channelId in console log of the current page.
+    </p>
     
-    <body>
-        
-    </body>
+    <p class="note">
+        <span class="uk-badge">NOTE</span> 
+        Please, wait the full page is loaded before open this popup or errors could happen in the channel id extraction.
+    </p>
+
+</body>
 
 </html>
